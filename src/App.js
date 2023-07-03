@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/rabbinical-geneaology">
       <div>
         <nav>
           <ul>
