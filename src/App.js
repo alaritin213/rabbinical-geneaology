@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/rabbinical-geneaology">
+    <Router>
       <div>
         <nav>
           <ul>
@@ -20,8 +20,8 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/rabbis-sephardic" element={<XmlDisplay filename={"/rabbinical-geneaology/data/Rishonim.xml"} />} />
-          <Route path="/rishonim" element={<XmlDisplay filename={"/rabbinical-geneaology/data/Rishonim.xml"} />} />
+          <Route path="/rabbis-sephardic" element={<XmlDisplay filename={"/data/Rabbis-Sephardic.xml"} />} />
+          <Route path="/rishonim" element={<XmlDisplay filename={"/data/Rishonim.xml"} />} />
         </Routes>
       </div>
     </Router>
