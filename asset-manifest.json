@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rabbinical-geneaology/static/css/main.ff9312a3.css",
-    "main.js": "/rabbinical-geneaology/static/js/main.d75d6eaa.js",
+    "main.js": "/rabbinical-geneaology/static/js/main.c75a8e36.js",
     "static/js/303.cdec2bca.chunk.js": "/rabbinical-geneaology/static/js/303.cdec2bca.chunk.js",
     "index.html": "/rabbinical-geneaology/index.html",
     "main.ff9312a3.css.map": "/rabbinical-geneaology/static/css/main.ff9312a3.css.map",
-    "main.d75d6eaa.js.map": "/rabbinical-geneaology/static/js/main.d75d6eaa.js.map",
+    "main.c75a8e36.js.map": "/rabbinical-geneaology/static/js/main.c75a8e36.js.map",
     "303.cdec2bca.chunk.js.map": "/rabbinical-geneaology/static/js/303.cdec2bca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff9312a3.css",
-    "static/js/main.d75d6eaa.js"
+    "static/js/main.c75a8e36.js"
   ]
 }
