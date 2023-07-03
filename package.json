@@ -1,0 +1,55 @@
+{
+  "name": "rabbinical-geneaology",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "buffer": "^6.0.3",
+    "dagre": "^0.8.5",
+    "eslint": "^8.43.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-flow-renderer": "^10.3.17",
+    "react-flowchart.js": "^1.0.2",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "react-xml-parser": "^1.1.8",
+    "react-xml-viewer": "^1.3.0",
+    "reactflow": "^11.7.4",
+    "safe-buffer": "^5.2.1",
+    "sax": "^1.2.4",
+    "stream": "^0.0.2",
+    "string_decoder": "^1.3.0",
+    "web-vitals": "^2.1.0",
+    "xml-js": "^1.6.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
