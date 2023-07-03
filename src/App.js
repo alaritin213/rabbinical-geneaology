@@ -20,8 +20,8 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/rabbis-sephardic" element={<XmlDisplay filename="/data/Rishonim.xml" />} />
-          <Route path="/rishonim" element={<XmlDisplay filename="/data/Rishonim.xml" />} />
+          <Route path="/rabbis-sephardic" element={<XmlDisplay filename=`${process.env.PUBLIC_URL}/data/Rishonim.xml` />} />
+          <Route path="/rishonim" element={<XmlDisplay filename=`${process.env.PUBLIC_URL}/data/Rishonim.xml` />} />
         </Routes>
       </div>
     </Router>
